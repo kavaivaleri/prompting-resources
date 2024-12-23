@@ -1,7 +1,5 @@
 # Awesome AI tools list
 
-Here is the revised and expanded table with clearer categories:
-
 | **Tool**             | **Category**               | **Description**                                                                                   | **Link**                                                                                   |
 |-----------------------|---------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | **NotebookLM**        | Notetaking & Research     | AI-driven tool to summarize materials and facilitate understanding complex information.            | [NotebookLM](https://notebooklm.google/)                                                   |
@@ -27,5 +25,3 @@ Here is the revised and expanded table with clearer categories:
 | **Perplexity**        | Search Engine             | AI-powered search engine for concise and accurate query responses.                                | [Perplexity](https://www.perplexity.ai/)                                                  |
 | **Cursor**            | Software Development      | AI code editor enhancing developer productivity with intelligent code suggestions and automation.  | [Cursor](https://cursor.so/)                                                              |
 | **Replit**            | Software Development      | Online coding platform integrating AI to assist in building and deploying applications.            | [Replit](https://replit.com/)                                                             |
-
-These tools are now grouped into distinct categories for better clarity and usability. Let me know if you’d like to refine or add more details!
