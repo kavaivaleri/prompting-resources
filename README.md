@@ -5,7 +5,7 @@ An awesome list of references related to prompt engineering.
 Current lists that we have:
 
 ## Techniques
-- Prompt engineering techniques
+- [57 prompt engineering techniques](https://github.com/kavaivaleri/prompting-resources/blob/main/prompting-techniques.md)
 - Prompt hacking techniques
 - Image prompting
 
