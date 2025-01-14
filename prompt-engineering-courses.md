@@ -1,5 +1,8 @@
 # 14 Prompt Engineering Courses
 
+> [!TIP]
+> Read more about each course in this article: [14 Best Online Prompt Engineering Courses [Free & Paid] with Certificates](https://learnprompting.org/blog/prompt_engineering_courses)
+
 | **No.** | **Name of the Course**                                                                                                                                                      | **Level**             | **Duration**                   | **Free/Paid**                                    | **Certificate** |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------------|--------------------------------------------------|-----------------|
 | 1       | [ChatGPT for Everyone by OpenAI and Learn Prompting](https://learnprompting.org/courses/chatgpt-for-everyone)                                                                 | Beginner              | 1 hour                         | Free                                             | Yes             |
@@ -17,4 +20,4 @@
 | 13      | [The Complete Prompt Engineering for AI Bootcamp on Udemy](https://learnprompting.org/blog/prompt_engineering_courses#13-the-complete-prompt-engineering-for-ai-bootcamp-on-udemy)                                                     | Intermediate          | 19 hours                       | $119.99                                          | Yes             |
 | 14      | [Prompt Engineering and Advanced ChatGPT on edX](https://learnprompting.org/blog/prompt_engineering_courses#14-prompt-engineering-and-advanced-chatgpt-on-edx)                                                                         | Intermediate/Advanced | 1 week     | Free with limited access; $40 for certificate    | Yes             |
 
-Read more about each course in this article: [14 Best Online Prompt Engineering Courses [Free & Paid] with Certificates](https://learnprompting.org/blog/prompt_engineering_courses)
+
