@@ -1,3 +1,5 @@
+# 57 Prompting Techniques (And there will be more!)
+
 ## Introduction and Useful Resources
 - [Introduction to AI](https://learnprompting.org/docs/basics/generative_ai)
 - [Getting Started with ChatGPT](https://learnprompting.org/docs/basics/chatgpt_basics_prompt)
@@ -6,74 +8,81 @@
 - [How to Create Effective Prompts: Essential Tips and Best Practices](https://learnprompting.org/docs/basics/ai_prompt_tips)
 - [What Factors Are Important in a Prompt?](https://learnprompting.org/docs/intermediate/whats_in_a_prompt)
 - [Combining Prompting Techniques](https://learnprompting.org/docs/basics/combining_techniques)
-- LLM Settings https://learnprompting.org/docs/intermediate/configuration_hyperparameters
-- OpenAI Playground https://learnprompting.org/docs/intermediate/openai_playground
+- [LLM Settings](https://learnprompting.org/docs/intermediate/configuration_hyperparameters) 
+- [OpenAI Playground](https://learnprompting.org/docs/intermediate/openai_playground)
 
-- 🟢 [Priming Prompt](https://learnprompting.org/docs/basics/priming_prompt)
-- 🟢 [Instruction prompting](https://learnprompting.org/docs/basics/instructions)
-- 🟢 Assigning Roles ([basic](https://learnprompting.org/docs/basics/roles), [intermediate](https://learnprompting.org/docs/intermediate/revisiting_roles), [advanced](https://learnprompting.org/docs/advanced/zero_shot/role_prompting))
-- 🟢 [Shot-Based Prompting (zero-shot and few-shot prompting)](https://learnprompting.org/docs/basics/few_shot)
-- 🟢 Chain-of-Thought Prompting https://learnprompting.org/docs/intermediate/chain_of_thought
-- 🟢 Zero-Shot Chain-of-Thought https://learnprompting.org/docs/intermediate/zero_shot_cot
-- 🟦 Self-Consistency https://learnprompting.org/docs/intermediate/self_consistency
-- 🟦 Generated Knowledge https://learnprompting.org/docs/intermediate/generated_knowledge
-- 🟦 Least-to-Most Prompting https://learnprompting.org/docs/intermediate/least_to_most
+## Prompting Techniques
 
-Zero-shot
-🟢 Emotion Prompting https://learnprompting.org/docs/advanced/zero_shot/emotion_prompting
-🟢 Role Prompting https://learnprompting.org/docs/advanced/zero_shot/role_prompting
-🟢 Re-reading (RE2) https://learnprompting.org/docs/advanced/zero_shot/re_reading
-🟢 Rephrase and Respond (RaR) https://learnprompting.org/docs/advanced/zero_shot/rephrase_and_respond
-🟦 SimToM https://learnprompting.org/docs/advanced/zero_shot/simtom
-◆ System 2 Attention (S2A) https://learnprompting.org/docs/advanced/zero_shot/s2a
+> To learn to prompt, use our [free Prompt Engineering Guide](https://learnprompting.org/docs/introduction) and [courses](https://learnprompting.org/courses).
+> 
+> This resource is largely based on the results of The Prompt Report research paper ([article](https://learnprompting.org/blog/the_prompt_report), [paper](https://trigaten.github.io/Prompt_Survey_Site/)), the most comprehensive study of prompting ever done.
 
-Few-Shot
-🟢 Self-Ask https://learnprompting.org/docs/advanced/few_shot/self_ask
-🟢 Self Generated In-Context Learning (SG-ICL) https://learnprompting.org/docs/advanced/few_shot/self_generated_icl
-◆ K-Nearest Neighbor (KNN) https://learnprompting.org/docs/advanced/few_shot/k_nearest_neighbor_knn
-◆◆ Vote-K https://learnprompting.org/docs/advanced/few_shot/vote-k
-◆◆ Prompt Mining https://learnprompting.org/docs/advanced/few_shot/prompt_mining
+| No. | Technique Name                                                                                                  | Short Description                                                                                                  | Type of Technique        | Difficulty              |
+|-----|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------|-------------------------|
+| 1   | [Priming Prompt](https://learnprompting.org/docs/basics/priming_prompt)                                         | Setting the stage for the model with context or examples.                                                        | Foundations             | 🟢 Beginner            |
+| 2   | [Instruction Prompting](https://learnprompting.org/docs/basics/instructions)                                   | Directly instructing the model to perform specific tasks.                                                        | Foundations             | 🟢 Beginner            |
+| 3   | Role Prompting: [Basic](https://learnprompting.org/docs/basics/roles), [Intermediate](https://learnprompting.org/docs/intermediate/revisiting_roles), [Advanced](https://learnprompting.org/docs/advanced/zero_shot/role_prompting) | Defining specific roles for the model to follow in responses.                                                   | Foundations             | 🟢 Beginner - ◆◆ Advanced |
+| 4   | [Shot-Based Prompting](https://learnprompting.org/docs/basics/few_shot)                                         | Using zero-shot or few-shot examples to guide model behavior.                                                   | Foundations             | 🟢 Beginner            |
+| 5   | [Chain-of-Thought Prompting](https://learnprompting.org/docs/intermediate/chain_of_thought)                     | Encourages step-by-step reasoning in model outputs.                                                              | Foundations             | 🟦 Easy               |
+| 6   | [Zero-Shot Chain-of-Thought](https://learnprompting.org/docs/intermediate/zero_shot_cot)                        | Combines zero-shot and chain-of-thought reasoning.                                                               | Foundations             | 🟦 Easy               |
+| 7   | [Self-Consistency](https://learnprompting.org/docs/intermediate/self_consistency)                               | Generates diverse reasoning paths and selects the most consistent answer.                                         | Foundations             | 🟦 Easy               |
+| 8   | [Generated Knowledge](https://learnprompting.org/docs/intermediate/generated_knowledge)                         | Using the model to generate and incorporate additional knowledge.                                                | Foundations             | 🟦 Easy               |
+| 9   | [Least-to-Most Prompting](https://learnprompting.org/docs/intermediate/least_to_most)                           | Solving complex tasks by breaking them into simpler subtasks.                                                    | Foundations             | 🟦 Easy               |
+| 10  | [Emotion Prompting](https://learnprompting.org/docs/advanced/zero_shot/emotion_prompting)                       | Guides the model to reflect specific emotional tones.                                                            | Zero-Shot               | 🟢 Beginner            |
+| 11  | [Role Prompting](https://learnprompting.org/docs/advanced/zero_shot/role_prompting)                             | Specifies roles for zero-shot applications.                                                                      | Zero-Shot               | 🟢 Beginner            |
+| 12  | [Re-reading (RE2)](https://learnprompting.org/docs/advanced/zero_shot/re_reading)                               | Model re-reads input for deeper understanding.                                                                   | Zero-Shot               | 🟦 Easy               |
+| 13  | [Rephrase and Respond (RaR)](https://learnprompting.org/docs/advanced/zero_shot/rephrase_and_respond)           | Rephrases the input before responding.                                                                           | Zero-Shot               | 🟦 Easy               |
+| 14  | [SimToM](https://learnprompting.org/docs/advanced/zero_shot/simtom)                                             | Simulates tasks or scenarios for enhanced reasoning.                                                             | Zero-Shot               | ◆ Intermediate         |
+| 15  | [System 2 Attention (S2A)](https://learnprompting.org/docs/advanced/zero_shot/s2a)                              | Mimics human-like reflective thinking processes.                                                                 | Zero-Shot               | ◆ Intermediate         |
+| 16  | [Self-Ask](https://learnprompting.org/docs/advanced/few_shot/self_ask)                                          | Model asks and answers intermediate questions to refine its reasoning.                                           | Few-Shot                | 🟦 Easy               |
+| 17  | [Self-Generated In-Context Learning (SG-ICL)](https://learnprompting.org/docs/advanced/few_shot/self_generated_icl) | Generates its own examples to learn in context.                                                                 | Few-Shot                | 🟦 Easy               |
+| 18  | [K-Nearest Neighbor (KNN)](https://learnprompting.org/docs/advanced/few_shot/k_nearest_neighbor_knn)            | Uses similar examples to improve responses.                                                                      | Few-Shot                | ◆ Intermediate         |
+| 19  | [Vote-K](https://learnprompting.org/docs/advanced/few_shot/vote-k)                                              | Voting mechanism for refining few-shot outputs.                                                                  | Few-Shot                | ◆◆ Advanced           |
+| 20  | [Prompt Mining](https://learnprompting.org/docs/advanced/few_shot/prompt_mining)                                | Finds optimal prompts for specific tasks.                                                                        | Few-Shot                | ◆◆ Advanced           |
+| 21  | [Contrastive Chain-of-Thought](https://learnprompting.org/docs/advanced/thought_generation/contrastive_cot)     | Improves reasoning through contrastive examples.                                                                 | Thought Generation      | 🟦 Easy               |
+| 22  | [Automatic Chain of Thought (Auto-CoT)](https://learnprompting.org/docs/advanced/thought_generation/automatic_chain_of_thought) | Automates generation of reasoning steps.                                                                         | Thought Generation      | ◆ Intermediate         |
+| 23  | [Tabular Chain-of-Thought (Tab-CoT)](https://learnprompting.org/docs/advanced/thought_generation/tabular_chain_of_thought_tab_cot) | Uses structured tables for reasoning.                                                                            | Thought Generation      | ◆ Intermediate         |
+| 24  | [Memory-of-Thought (MoT)](https://learnprompting.org/docs/advanced/thought_generation/memory_of_thought)        | Enhances memory retention in reasoning.                                                                          | Thought Generation      | ◆ Intermediate         |
+| 25  | [Active Prompting](https://learnprompting.org/docs/advanced/thought_generation/active_prompting)                | Dynamically adjusts prompts based on responses.                                                                  | Thought Generation      | ◆ Intermediate         |
+| 26  | [Analogical Prompting](https://learnprompting.org/docs/advanced/thought_generation/analogical_prompting)        | Encourages reasoning through analogies.                                                                          | Thought Generation      | ◆ Intermediate         |
+| 27  | [Complexity-Based Prompting](https://learnprompting.org/docs/advanced/thought_generation/complexity_based_prompting) | Matches prompts to task complexity.                                                                              | Thought Generation      | ◆ Intermediate         |
+| 28  | [Step-Back Prompting](https://learnprompting.org/docs/advanced/thought_generation/step_back_prompting)          | Model reviews its own reasoning steps.                                                                           | Thought Generation      | ◆ Intermediate         |
+| 29  | [Thread of Thought (ThoT)](https://learnprompting.org/docs/advanced/thought_generation/thread_of_thought)       | Tracks connected reasoning threads.                                                                              | Thought Generation      | ◆◆ Advanced           |
+| 30  | [Mixture of Reasoning Experts (MoRE)](https://learnprompting.org/docs/advanced/ensembling/mixture_of_reasoning_experts_more) | Combines outputs from multiple reasoning strategies.                                                             | Ensembling              | ◆ Intermediate         |
+| 31  | [Consistency-based Self-adaptive Prompting (COSP)](https://learnprompting.org/docs/advanced/ensembling/consistency_based_self_adaptive_prompting) | Adapts prompts for consistent outputs.                                                                           | Ensembling              | ◆ Intermediate         |
+| 32  | [Max Mutual Information (MMI) Method](https://learnprompting.org/docs/advanced/ensembling/max_mutual_information_method) | Balances response relevance and fluency.                                                                         | Ensembling              | ◆◆ Advanced           |
+| 33  | [DiVeRSe (Diverse Verifier on Reasoning Step)](https://learnprompting.org/docs/advanced/ensembling/diverse_verifier_on_reasoning_step) | Ensures diverse verification steps.                                                                              | Ensembling              | ◆◆ Advanced           |
+| 34  | [Prompt Paraphrasing](https://learnprompting.org/docs/advanced/ensembling/prompt_paraphrasing)                  | Rephrases prompts for variety and clarity.                                                                       | Ensembling              | ◆ Intermediate         |
+| 35  | [Universal Self-Adaptive Prompting (USP)](https://learnprompting.org/docs/advanced/ensembling/universal_self_adaptive_prompting) | Adapts to different tasks universally.                                                                           | Ensembling              | ◆ Intermediate         |
+| 36  | [Universal Self-Consistency](https://learnprompting.org/docs/advanced/ensembling/universal_self_consistency)    | Ensures consistent reasoning across tasks.                                                                       | Ensembling              | 🟢 Beginner            |
+| 37  | [Multi-Chain Reasoning (MCR)](https://learnprompting.org/docs/advanced/ensembling/multi-chain-reasoning)        | Combines multiple reasoning chains.                                                                              | Ensembling              | ◆◆ Advanced           |
+| 38  | [Self-Calibration](https://learnprompting.org/docs/advanced/self_criticism/self_calibration)                    | Adjusts outputs for accuracy and relevance.                                                                     | Self-Criticism          | 🟢 Beginner            |
+| 39  | [Chain-of-Verification (CoVe)](https://learnprompting.org/docs/advanced/self_criticism/chain_of_verification)    | Verifies reasoning in a step-by-step manner.                                                                    | Self-Criticism          | ◆ Intermediate         |
+| 40  | [Self-Refine](https://learnprompting.org/docs/advanced/self_criticism/self_refine)                              | Allows iterative improvement of outputs.                                                                         | Self-Criticism          | ◆ Intermediate         |
+| 41  | [Cumulative Reasoning](https://learnprompting.org/docs/advanced/self_criticism/cumulative_reasoning)            | Builds upon prior reasoning iteratively.                                                                         | Self-Criticism          | ◆ Intermediate         |
+| 42  | [Reversing Chain-of-Thought (RCoT)](https://learnprompting.org/docs/advanced/self_criticism/rcot)               | Reverses reasoning steps to ensure logical consistency.                                                          | Self-Criticism          | ◆◆ Advanced           |
+| 43  | [Self-Verification](https://learnprompting.org/docs/advanced/self_criticism/self_verification)                  | Evaluates and confirms its own reasoning steps.                                                                  | Self-Criticism          | ◆◆ Advanced           |
+| 44  | [Decomposed Prompting](https://learnprompting.org/docs/advanced/decomposition/decomp)                           | Breaks complex prompts into smaller subtasks.                                                                    | Decomposition           | ◆ Intermediate         |
+| 45  | [Plan-and-Solve Prompting](https://learnprompting.org/docs/advanced/decomposition/plan_and_solve)               | Combines planning and solving phases.                                                                            | Decomposition           | ◆ Intermediate         |
+| 46  | [Program of Thoughts](https://learnprompting.org/docs/advanced/decomposition/program_of_thoughts)               | Uses a programming-like approach to structure reasoning.                                                         | Decomposition           | ◆◆ Advanced           |
+| 47  | [Tree of Thoughts](https://learnprompting.org/docs/advanced/decomposition/tree_of_thoughts)                     | Organizes reasoning into tree structures for exploring multiple paths.                                            | Decomposition           | ◆◆ Advanced           |
+| 48  | [Faithful Chain-of-Thought](https://learnprompting.org/docs/advanced/decomposition/faithful_cot)                | Ensures reasoning remains faithful to the input.                                                                 | Decomposition           | ◆◆ Advanced           |
+| 49  | [Recursion of Thought](https://learnprompting.org/docs/advanced/decomposition/recursion_of_thought)             | Applies recursive reasoning techniques.                                                                          | Decomposition           | ◆◆ Advanced           |
+| 50  | [Skeleton-of-Thought](https://learnprompting.org/docs/advanced/decomposition/skeleton_of_thoughts)              | Creates a structural outline for complex reasoning.                                                              | Decomposition           | ◆◆ Advanced           |
+| 51  | [Self-Harmonized Chain-of-Thought (ECHO)](https://learnprompting.org/docs/new_techniques/self_harmonized_chain_of_thought) | Ensures reasoning consistency by harmonizing intermediate reasoning steps.                                       | 🌱 New Techniques              | 🟦 Easy          |
+| 52  | [Logic-of-Thought (LoT)](https://learnprompting.org/docs/new_techniques/logic_of_thought)                       | Uses logical structures to refine and verify reasoning steps.                                                    | 🌱 New Techniques              | 🟦 Easy          |
+| 53  | [Code Prompting](https://learnprompting.org/docs/new_techniques/code_prompting)                                 | Generates or modifies code based on structured prompts.                                                          | 🌱 New Techniques              | 🟦 Easy          |
+| 54  | [Aligned Chain-of-Thought (AlignedCoT)](https://learnprompting.org/docs/new_techniques/aligned_cot)             | Focuses on aligning reasoning steps with task-specific goals.                                                    | 🌱 New Techniques              | 🟢 Beginner      |
+| 55  | [End-to-End DAG-Path (EEDP) Prompting](https://learnprompting.org/docs/new_techniques/end_to_end_dag_path_prompting) | Employs directed acyclic graphs for solving complex tasks end-to-end.                                            | 🌱 New Techniques              | ◆ Intermediate   |
+| 56  | [Instance-adaptive Zero-Shot Chain-of-Thought Prompting (IAP)](https://learnprompting.org/docs/new_techniques/instance_adaptive_zero_shot_chain_of_thought) | Adjusts zero-shot reasoning dynamically to specific instances.                                                   | 🌱 New Techniques              | ◆ Intermediate   |
+| 57  | [Narrative-of-Thought (NoT)](https://learnprompting.org/docs/new_techniques/narrative_of_thought)               | Structures reasoning as a narrative to enhance comprehensibility.                                                | 🌱 New Techniques              | 🟦 Easy          |
 
-Thought Generation
-🟦 Contrastive Chain-of-Thought https://learnprompting.org/docs/advanced/thought_generation/contrastive_cot
-🟦 Automatic Chain of Thought (Auto-CoT) https://learnprompting.org/docs/advanced/thought_generation/automatic_chain_of_thought
-🟦 Tabular Chain-of-Thought (Tab-CoT) https://learnprompting.org/docs/advanced/thought_generation/tabular_chain_of_thought_tab_cot
-🟦 Memory-of-Thought (MoT) https://learnprompting.org/docs/advanced/thought_generation/memory_of_thought
-🟦 Active Prompting https://learnprompting.org/docs/advanced/thought_generation/active_prompting
-🟦 Analogical Prompting https://learnprompting.org/docs/advanced/thought_generation/analogical_prompting
-🟦 Complexity-Based Prompting https://learnprompting.org/docs/advanced/thought_generation/complexity_based_prompting
-🟦 Step-Back Prompting https://learnprompting.org/docs/advanced/thought_generation/step_back_prompting
-🟦 Thread of Thought (ThoT) https://learnprompting.org/docs/advanced/thought_generation/thread_of_thought
-
-Ensembling
-🟦 Mixture of Reasoning Experts (MoRE) https://learnprompting.org/docs/advanced/ensembling/mixture_of_reasoning_experts_more
-🟦 Consistency-based Self-adaptive Prompting (COSP) https://learnprompting.org/docs/advanced/ensembling/consistency_based_self_adaptive_prompting
-🟦 Max Mutual Information (MMI) Method https://learnprompting.org/docs/advanced/ensembling/max_mutual_information_method
-🟦 DiVeRSe (Diverse Verifier on Reasoning Step) https://learnprompting.org/docs/advanced/ensembling/diverse_verifier_on_reasoning_step
-🟦 Prompt Paraphrasing https://learnprompting.org/docs/advanced/ensembling/prompt_paraphrasing
-🟦 Universal Self-Adaptive Prompting (USP) https://learnprompting.org/docs/advanced/ensembling/universal_self_adaptive_prompting
-🟢 Universal Self-Consistency https://learnprompting.org/docs/advanced/ensembling/universal_self_consistency
-🟦 Multi-Chain Reasoning (MCR) https://learnprompting.org/docs/advanced/ensembling/multi-chain-reasoning
-
-Self-Criticism
-🟢 Introduction https://learnprompting.org/docs/advanced/self_criticism/introduction
-🟢 Self-Calibration https://learnprompting.org/docs/advanced/self_criticism/self_calibration
-🟢 Chain-of-Verification (CoVe) https://learnprompting.org/docs/advanced/self_criticism/chain_of_verification
-🟦 Self-Refine https://learnprompting.org/docs/advanced/self_criticism/self_refine
-🟦 Cumulative Reasoning https://learnprompting.org/docs/advanced/self_criticism/cumulative_reasoning
-🟦 Reversing Chain-of-Thought (RCoT) https://learnprompting.org/docs/advanced/self_criticism/rcot
-◆ Self-Verification https://learnprompting.org/docs/advanced/self_criticism/self_verification
-
-Decomposition
-🟢 Introduction
-🟦 Decomposed Prompting
-🟦 Plan-and-Solve Prompting
-🟦 Program of Thoughts
-🟦 Tree of Thoughts
-◆ Faithful Chain-of-Thought
-◆ Recursion of Thought
-◆ Skeleton-of-Thought
-
-Individual Tips:
-- 🟦 Dealing With Long Form Content https://learnprompting.org/docs/intermediate/long_form_content
-
+### For Multimodal Language Models
+| No. | Technique Name                                                                                                  | Short Description                                                                                                  | Type of Technique        | Difficulty              |
+|-----|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------|-------------------------|
+| 1  | [Prompt Learning](https://learnprompting.org/docs/new_techniques/for_vision_language_models/prompt_learning)    | Optimizes prompts specifically for vision-language models.                                                       | 👀 For Vision-Language Models (VLMs) | 🟢 Beginner      |
+| 2  | [Context Optimization (CoOp)](https://learnprompting.org/docs/new_techniques/for_vision_language_models/context_optimization) | Adapts prompts to context within vision-language tasks for improved results.                                      | 👀 For Vision-Language Models (VLMs) | ◆ Intermediate   |
+| 3  | [Conditional Prompt Learning (CoCoOp)](https://learnprompting.org/docs/new_techniques/for_vision_language_models/conditional_prompt_learning) | Enhances flexibility by tailoring prompts conditionally to different tasks.                                      | 👀 For Vision-Language Models (VLMs) | ◆ Intermediate   |
+| 4 | [Mixture of Prompt Learning (MoCoOp)](https://learnprompting.org/docs/new_techniques/for_vision_language_models/mixture_of_prompt_learning) | Combines multiple prompt strategies for vision-language tasks.                                                   | 👀 For Vision-Language Models (VLMs) | ◆ Intermediate   |
+| 5  | [Attention Prompting on Image](https://learnprompting.org/docs/new_techniques/for_vision_language_models/attention_prompting_on_image) | Guides visual attention in models through prompt-based mechanisms.                                               | 👀 For Vision-Language Models (VLMs) | ◆ Intermediate   |
+| 6  | [Visual Prompting](https://learnprompting.org/docs/new_techniques/for_multimodal_llms/visual_prompt)            | Leverages visual cues in prompts to optimize multimodal large language models.                                    | 🔀 For Multimodal Large Language Models (MLLMs) | ◆ Intermediate   |
