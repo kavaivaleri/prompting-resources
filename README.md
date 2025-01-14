@@ -18,7 +18,7 @@ Prompting techniques, AI tools, courses, books, articles, models, and more!
 ## 🗂️ Resource Categories
 
 ### Learn Prompting Research
-- **[The Prompt Report: A Systematic Survey of Prompting Techniques](https://trigaten.github.io/Prompt_Survey_Site/)** ([paper](https://learnprompting.org/blog/the_prompt_report)): The most comprehensive study of prompting techniques to date.
+- **[The Prompt Report: A Systematic Survey of Prompting Techniques](https://trigaten.github.io/Prompt_Survey_Site/)** ([blog post](https://learnprompting.org/blog/the_prompt_report)): The most comprehensive study of prompting techniques to date.
 - **[Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs](https://arxiv.org/abs/2311.16119):** Insights from analyzing over 600K adversarial prompts across state-of-the-art LLMs.
 
 ### Techniques
