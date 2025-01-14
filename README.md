@@ -1,4 +1,4 @@
-# Prompting Resources
+# Awesome Prompting Resources [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/chetanraj/awesome-github-badges) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Awesome%20Prompting%20Resources%20-%20a%20collection%20of%20awesome%20lists%20related%20to%20prompt%20engineering%20by%20@learnprompting&url=https://github.com/kavaivaleri/prompting-resources)
 
 An awesome list of references related to prompt engineering.
 
