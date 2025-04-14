@@ -1,3 +1,5 @@
+<img src="astronaut_welcome.webp" alt="astronaut-learn-prompting">
+
 <h1 align="center">
     <strong>Awesome prompting resources — an awesome list of references related to prompt engineering</strong>
 </h1>
