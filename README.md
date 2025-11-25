@@ -61,3 +61,4 @@ Prompting techniques, AI tools, courses, books, articles, models, and more!
 
 
 # nbj
+# ai-dev-tools-zoomcamp-2025
